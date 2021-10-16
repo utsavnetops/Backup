@@ -1,0 +1,29 @@
+
+BITS-HYD-HB2-R131#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+BITS-HYD-HB2-R131(config)# line vty 0 15
+BITS-HYD-HB2-R131(config-line)#length 0
+BITS-HYD-HB2-R131(config-line)#exit
+BITS-HYD-HB2-R131(config)#do show cdp ne
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+007e955d3869     Gig 0/47          144             R S I  SG350-28P gi24
+BITS-HYD-DS-RAM-R265(FDO22273WBA)
+                 Gig 0/48          127            R S I C N9K-C9216 Eth 1/7
+
+Total cdp entries displayed : 2
+BITS-HYD-HB2-R131(config)#
+BITS-HYD-HB2-R131(config)#
+BITS-HYD-HB2-R131(config)#
+BITS-HYD-HB2-R131(config)#
+BITS-HYD-HB2-R131(config)#
+BITS-HYD-HB2-R131(config)# line vty 0 15
+BITS-HYD-HB2-R131(config-line)#length 16
+BITS-HYD-HB2-R131(config-line)#end
+BITS-HYD-HB2-R131#write
+Building configuration...
+[OK]
+BITS-HYD-HB2-R131#
